@@ -19,9 +19,9 @@ LOGO = logo_svg("#111111")
 CARD = f"""
 <div class="card">
   <svg class="wave" viewBox="0 0 540 250" preserveAspectRatio="none">
-    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00a0c6"/><stop offset="1" stop-color="#00799f"/></linearGradient></defs>
-    <path d="M0 0 H540 V170 C 430 230, 300 160, 170 205 C 100 228, 40 222, 0 210 Z" fill="#111"/>
-    <path d="M0 0 H540 V150 C 430 210, 300 140, 170 185 C 100 208, 40 202, 0 190 Z" fill="url(#g)"/>
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00a0c6"/><stop offset="1" stop-color="#00799f"/></linearGradient></defs>
+    <rect x="0" y="0" width="540" height="206" fill="#111"/>
+    <rect x="0" y="0" width="540" height="195" fill="url(#g)"/>
   </svg>
   <div class="hd">
     <div class="lg">{LOGO}</div>
